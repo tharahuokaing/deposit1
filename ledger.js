@@ -9,10 +9,10 @@
 
     // 1. Data Store: Centralized configuration for asset metrics
     const ASSET_CLASSES = [
-        { name: "Corporate Operating Escrow", amount: "$18,887,500.00.00", percentage: 42.7 },
-        { name: "Retail & High-Net-Worth Savings", amount: "$18,887,500.00", percentage: 29.4 },
-        { name: "Interbank Overnight Placements", amount: "$18,887,500.00", percentage: 17.8 },
-        { name: "Central Bank Term Deposits", amount: "$18,887,500.00", percentage: 9.8 }
+        { name: "Corporate Operating Escrow", amount: "$18,887,500.00.00", percentage: 25.0 },
+        { name: "Retail & High-Net-Worth Savings", amount: "$18,887,500.00", percentage: 25.0 },
+        { name: "Interbank Overnight Placements", amount: "$18,887,500.00", percentage: 25.0 },
+        { name: "Central Bank Term Deposits", amount: "$18,887,500.00", percentage: 25.0 }
     ];
 
     // Initial log state
