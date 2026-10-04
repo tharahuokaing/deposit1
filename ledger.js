@@ -9,16 +9,16 @@
 
     // 1. Data Store: Centralized configuration for asset metrics
     const ASSET_CLASSES = [
-        { name: "Corporate Operating Escrow", amount: "$6,250,000.00", percentage: 25.0 },
-        { name: "Retail & High-Net-Worth Savings", amount: "$6,250,000.00", percentage: 25.0 },
-        { name: "Interbank Overnight Placements", amount: "$6,250,000.00", percentage: 25.0 },
-        { name: "Central Bank Term Deposits", amount: "$6,250,000.00", percentage: 25.0 }
+        { name: "Corporate Operating Escrow", amount: "$7,500,000.00", percentage: 25.0 },
+        { name: "Retail & High-Net-Worth Savings", amount: "$7,500,000.00", percentage: 25.0 },
+        { name: "Interbank Overnight Placements", amount: "$7,500,000.00", percentage: 25.0 },
+        { name: "Central Bank Term Deposits", amount: "$7,500,000.00", percentage: 25.0 }
     ];
 
     // Initial log state
     let recentInflows = [
-        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$12,500,000.00", status: "Success" },
-        { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$12,500,000.00", status: "Success" }
+        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$15,000,000.00", status: "Success" },
+        { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$15,000,000.00", status: "Success" }
     ];
 
     // 2. Rendering Engine
