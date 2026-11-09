@@ -8,15 +8,15 @@
 
     // 1. Data Store
     const ASSET_CLASSES = [
-        { name: "Corporate Operating Escrow", amount: "$8,750,000.00", percentage: 25.0 },
-        { name: "Retail & High-Net-Worth Savings", amount: "$8,750,000.00", percentage: 25.0 },
-        { name: "Interbank Overnight Placements", amount: "$8,750,000.00", percentage: 25.0 },
-        { name: "Central Bank Term Deposits", amount: "$8,750,000.00", percentage: 25.0 }
+        { name: "Corporate Operating Escrow", amount: "$10,000,000.00", percentage: 25.0 },
+        { name: "Retail & High-Net-Worth Savings", amount: "$10,000,000.00", percentage: 25.0 },
+        { name: "Interbank Overnight Placements", amount: "$10,000,000.00", percentage: 25.0 },
+        { name: "Central Bank Term Deposits", amount: "$10,000,000.00", percentage: 25.0 }
     ];
 
     let recentInflows = [
-        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$17,500,000.00", status: "Success" },
-        { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$17,500,000.00", status: "Success" }
+        { id: "DEP-LN-9901", tier: "Corporate Wholesale", route: "Bakong Network Sweep", volume: "$20,000,000.00", status: "Success" },
+        { id: "DEP-LN-9905", tier: "Corporate Wholesale", route: "Real-time Gross Settlement", volume: "$20,000,000.00", status: "Success" }
     ];
 
     // 2. Rendering Logic
